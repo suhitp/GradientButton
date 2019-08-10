@@ -19,14 +19,14 @@ open class GradientButton: UIButton {
     }
     
     @IBInspectable
-    open var startColor: UIColor = UIColor.red {
+    open var startColor: UIColor = UIColor.black {
         didSet {
             gradientLayer.colors = [ startColor.cgColor, endColor.cgColor ]
         }
     }
     
     @IBInspectable
-    open var endColor: UIColor = UIColor.orange {
+    open var endColor: UIColor = UIColor.white {
         didSet {
             gradientLayer.colors = [ startColor.cgColor, endColor.cgColor ]
         }
@@ -81,7 +81,7 @@ open class GradientButton: UIButton {
     
     private func setCornerRadius() {
         layer.cornerRadius = cornerRadius
-        layer.masksToBounds = cornerRadius > 0
+        layer.masksToBounds = true
         if #available(iOS 13.0, *) {
             layer.cornerCurve = .continuous
         }
