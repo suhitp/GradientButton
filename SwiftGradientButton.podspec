@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint GradientButton.podspec' to ensure this is a
+#  Be sure to run `pod spec lint SwiftGradientButton.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "GradientButton"
+  spec.name         = "SwiftGradientButton"
   spec.version      = "0.1.0"
   spec.summary      = "A fully customisable subclass of the UIButton which allows you to create beautiful gradient buttons."
 
