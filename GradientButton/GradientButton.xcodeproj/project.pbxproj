@@ -16,7 +16,11 @@
 		561D178122FEDA6900C8630A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561D177F22FEDA6900C8630A /* LaunchScreen.storyboard */; };
 		561D179522FEDD8500C8630A /* GradientButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561D176022FED40A00C8630A /* GradientButton.framework */; };
 		561D179622FEDD8500C8630A /* GradientButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 561D176022FED40A00C8630A /* GradientButton.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		56706A2A22FF0A8D003F2306 /* gradient_screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 56706A2922FF0A8D003F2306 /* gradient_screenshot.png */; };
+		56706A2C22FF0C70003F2306 /* gradient_screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56706A2B22FF0C70003F2306 /* gradient_screenshot1.png */; };
+		56706A2F22FF0C7B003F2306 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 56706A2D22FF0C7B003F2306 /* screenshot2.png */; };
+		56706A3022FF0C7B003F2306 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56706A2E22FF0C7B003F2306 /* screenshot1.png */; };
+		56706A3222FF0CBC003F2306 /* gradient_screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = 56706A3122FF0CBC003F2306 /* gradient_screenshot2.png */; };
+		56706A3422FF0D22003F2306 /* custom_gradients.png in Resources */ = {isa = PBXBuildFile; fileRef = 56706A3322FF0D22003F2306 /* custom_gradients.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +68,11 @@
 		561D178222FEDA6900C8630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		561D178722FEDA6900C8630A /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		561D178D22FEDA6900C8630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56706A2922FF0A8D003F2306 /* gradient_screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient_screenshot.png; sourceTree = "<group>"; };
+		56706A2B22FF0C70003F2306 /* gradient_screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient_screenshot1.png; sourceTree = "<group>"; };
+		56706A2D22FF0C7B003F2306 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
+		56706A2E22FF0C7B003F2306 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
+		56706A3122FF0CBC003F2306 /* gradient_screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient_screenshot2.png; sourceTree = "<group>"; };
+		56706A3322FF0D22003F2306 /* custom_gradients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_gradients.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +172,11 @@
 		56706A2622FF09F5003F2306 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				56706A2922FF0A8D003F2306 /* gradient_screenshot.png */,
+				56706A3322FF0D22003F2306 /* custom_gradients.png */,
+				56706A3122FF0CBC003F2306 /* gradient_screenshot2.png */,
+				56706A2B22FF0C70003F2306 /* gradient_screenshot1.png */,
+				56706A2E22FF0C7B003F2306 /* screenshot1.png */,
+				56706A2D22FF0C7B003F2306 /* screenshot2.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -294,9 +306,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				561D178122FEDA6900C8630A /* LaunchScreen.storyboard in Resources */,
-				56706A2A22FF0A8D003F2306 /* gradient_screenshot.png in Resources */,
 				561D177E22FEDA6900C8630A /* Assets.xcassets in Resources */,
+				56706A3422FF0D22003F2306 /* custom_gradients.png in Resources */,
 				561D177C22FEDA6700C8630A /* Main.storyboard in Resources */,
+				56706A3022FF0C7B003F2306 /* screenshot1.png in Resources */,
+				56706A2F22FF0C7B003F2306 /* screenshot2.png in Resources */,
+				56706A3222FF0CBC003F2306 /* gradient_screenshot2.png in Resources */,
+				56706A2C22FF0C70003F2306 /* gradient_screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
