@@ -3,18 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		561D176522FED40A00C8630A /* GradientButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 561D176322FED40A00C8630A /* GradientButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		561D176D22FED61700C8630A /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D176C22FED61700C8630A /* GradientButton.swift */; };
+		561D176D22FED61700C8630A /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D176C22FED61700C8630A /* GradientButton.swift */; platformFilter = ios; };
 		561D177522FEDA6700C8630A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D177422FEDA6700C8630A /* AppDelegate.swift */; };
 		561D177922FEDA6700C8630A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D177822FEDA6700C8630A /* ViewController.swift */; };
 		561D177C22FEDA6700C8630A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561D177A22FEDA6700C8630A /* Main.storyboard */; };
 		561D177E22FEDA6900C8630A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561D177D22FEDA6900C8630A /* Assets.xcassets */; };
 		561D178122FEDA6900C8630A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561D177F22FEDA6900C8630A /* LaunchScreen.storyboard */; };
-		561D178C22FEDA6900C8630A /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D178B22FEDA6900C8630A /* ExampleUITests.swift */; };
 		561D179522FEDD8500C8630A /* GradientButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561D176022FED40A00C8630A /* GradientButton.framework */; };
 		561D179622FEDD8500C8630A /* GradientButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 561D176022FED40A00C8630A /* GradientButton.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -63,7 +62,6 @@
 		561D178022FEDA6900C8630A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		561D178222FEDA6900C8630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		561D178722FEDA6900C8630A /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		561D178B22FEDA6900C8630A /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		561D178D22FEDA6900C8630A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,7 +146,6 @@
 		561D178A22FEDA6900C8630A /* ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				561D178B22FEDA6900C8630A /* ExampleUITests.swift */,
 				561D178D22FEDA6900C8630A /* Info.plist */,
 			);
 			path = ExampleUITests;
@@ -322,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				561D178C22FEDA6900C8630A /* ExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
