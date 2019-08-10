@@ -3,7 +3,6 @@ A fully customisable subclass of the UIButton which allows you to create beautif
 
 [![Swift Version][swift-image]][swift-url]
 [![License][license-image]][license-url]
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/GradientButtonSwift.svg?style=flat)](https://cocoapods.org/pods/SwiftGradientButton) 
 [![Platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://cocoapods.org/pods/SwiftGradientButton)
 
 SwiftGradientButton is a library for to create custom GradientButton for iOS. It can be used to easily apply custom gradients on UIButton with custom startColor, endColor, startPoint, endPoint properties. Use cornerRadius property to apply rounded corners to GradientButton.
@@ -78,5 +77,5 @@ SwiftGradientButton is available under the MIT license.
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
-[license-image]: https://img.shields.io/github/license/roydenrego/GradientButtonSwift.svg
+[license-image]: https://img.shields.io/github/license/suhitp/SwiftGradientButton
 [license-url]: https://github.com/suhitp/GradientButton/blob/master/LICENSE
