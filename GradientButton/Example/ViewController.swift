@@ -13,6 +13,10 @@ final class ViewController: UIViewController {
 
     @IBOutlet var stackView: UIStackView!
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
     lazy var gradientButton: GradientButton = {
         let button = GradientButton()
         button.cornerRadius = 5
