@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SwiftGradientButton"
-  spec.version      = "0.1.0"
+  spec.version      = "0.2.0"
   spec.summary      = "A fully customisable subclass of the UIButton which allows you to create beautiful gradient buttons."
 
   spec.description  = <<-DESC
