@@ -13,13 +13,13 @@ Pod::Spec.new do |spec|
   spec.summary      = "A fully customisable subclass of the UIButton which allows you to create beautiful gradient buttons."
 
   spec.description  = <<-DESC
-  GradientButton is a customisable subclass of UIButton for iOS. It can be used to easily apply custom gradients on UIButton with custom @IBInspectable startColor, endColor, startPoint, endPoint and cornerRadius properties. 
+  SwiftGradientButton is a customisable subclass of UIButton for iOS. It can be used to easily apply custom gradients on UIButton with custom @IBInspectable startColor, endColor, startPoint, endPoint and cornerRadius properties. 
 
 DESC
-  spec.homepage     = "https://github.com/suhitp/GradientButton"
+  spec.homepage     = "https://github.com/suhitp/SwiftGradientButton"
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.author             = { "Suhit Patil" => "suhit.patil@gmail.com" }
-  spec.source       = { :git => "https://github.com/suhitp/GradientButton.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/suhitp/SwiftGradientButton.git", :tag => "#{spec.version}" }
   spec.source_files  = "GradientButton/GradientButton/Source/*.{swift}"
   spec.exclude_files = ["GradientButton/Example/", "GradientButton/ExampleUITests/", "GradientButton/GradientButton/*.plist"]
   spec.platform     = :ios, "11.0"
